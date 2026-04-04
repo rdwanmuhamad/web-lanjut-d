@@ -1,0 +1,10 @@
+<?php
+
+use App\Http\Controllers\Admin\DashboardController;
+use App\Http\Controllers\CustomerController;
+use App\Http\Controllers\HomeController;
+use Illuminate\Support\Facades\Route;
+
+Route::get('/', [HomeController::class, 'index'])->name('home');
+Route::get('/customer', [CustomerController::class, 'index'])->name('customer');
+Route::get('/admin/dashboard', [DashboardController::class, 'index'])->name('dashboard');
