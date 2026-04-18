@@ -4,4 +4,8 @@
             <span>Copyright &copy; Your Website 2021</span>
         </div>
     </div>
+<<<<<<< HEAD
 </footer>
+=======
+</footer>
+>>>>>>> 41b432ff85297dfd50545f78816c136187c26174

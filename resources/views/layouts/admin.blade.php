@@ -11,7 +11,12 @@
 
     <title>SB Admin 2 - Dashboard</title>
 
+<<<<<<< HEAD
    @include('includes.admin.style')
+=======
+    <!-- Custom fonts for this template-->
+    @include('includes.admin.style')
+>>>>>>> 41b432ff85297dfd50545f78816c136187c26174
 
 </head>
 
@@ -57,7 +62,11 @@
     </div>
 
     <!-- Bootstrap core JavaScript-->
+<<<<<<< HEAD
    @include('includes.admin.script')
+=======
+    @include('includes.admin.script')
+>>>>>>> 41b432ff85297dfd50545f78816c136187c26174
 
 </body>
 
